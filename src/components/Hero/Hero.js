@@ -9,10 +9,10 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hey there,
+          Hi there,
         </SectionTitle>
         <SectionText>
-        I'm Vipul Jha, also known as lordarcadius. I'm an Android developer from Delhi, India with experience in ROMs, Kernels, & Scripts. Currently, I am working in Primebook as an Android Engineer. I'm passionate about contributing to open-source projects and helping the developer community on Facebook and Telegram.
+            I'm Nick Elliott.  I currently work as a Design System Product Manager at Iress. I am also an experienced UX designer. I'm passionate about creating stress-free experiences and making the complex, simple.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
