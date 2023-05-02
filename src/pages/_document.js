@@ -35,8 +35,8 @@ export default class MyDocument extends Document {
           <meta name="title" content="Nick Elliott - Lead UX Designer and Design System Product Manager" />
           <meta name="description" content="Nick is a Design System Product Manager at Iress. He is also an experienced UX designer." />
           <meta property="og:type" content="website" />
-                <meta property="og:title" content="Nick Elliott - Lead UX Designer and Design System Product Manager" />
-                <meta property="og:description" content="Nick is a Design System Product Manager at Iress. He is also an experienced UX designer." />
+          <meta property="og:title" content="Nick Elliott - Lead UX Designer and Design System Product Manager" />
+          <meta property="og:description" content="Nick is a Design System Product Manager at Iress. He is also an experienced UX designer." />
         </Head>
         <body>
           <Main />

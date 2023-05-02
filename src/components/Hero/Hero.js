@@ -12,7 +12,7 @@ const Hero = (props) => (
           Hi there,
         </SectionTitle>
         <SectionText>
-            I'm Nick Elliott.  I currently work as a Design System Product Manager at Iress. I am also an experienced UX designer. I'm passionate about creating stress-free experiences and making the complex, simple.
+                    I'm Nick Elliott.  I am also an experienced Lead UX designer from Cheltenham, UK.  I currently work as a Design System Product Manager at Iress. I'm passionate about creating stress-free experiences and making the complex, simple. I enjoy working on enterprise systems, working collaboratively wtih smart people.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
