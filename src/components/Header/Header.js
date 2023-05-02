@@ -10,7 +10,7 @@ const Header = () => (
         href="/"
         style={{ display: 'flex', alignItems: 'center', color: "white" }}>
 
-        <img src="/logo.svg" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Vipul Jha</span>
+        <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Nick Elliott</span>
 
       </Link>
     </Div1>
@@ -37,17 +37,8 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/lordarcadius">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+      <SocialIcons href="https://www.linkedin.com/in/nickelliott/">
         <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lordarcadius">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/lordarcadius">
-        <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
