@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-      <title>Nick Elliott - Lead UX Designer and Design System Product Manager</title>
+      <title>Nick Elliott - UX & design system consultant and pracitioner</title>
       </Head>
       <Theme>
         <Component {...pageProps} />

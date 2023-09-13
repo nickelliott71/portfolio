@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
@@ -6,6 +7,12 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () => (
   <Container>
     <Div1>
+      <Image
+        src="/profile.png"
+        width={500}
+        height={500}
+        alt="Picture of the author"
+      />
       <Link
         href="/"
         style={{ display: 'flex', alignItems: 'center', color: "white" }}>

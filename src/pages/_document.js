@@ -32,11 +32,11 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-          <meta name="title" content="Nick Elliott - Lead UX Designer and Design System Product Manager" />
-          <meta name="description" content="Nick is a Design System Product Manager at Iress. He is also an experienced UX designer." />
+          <meta name="title" content="Nick Elliott - UX & design system consultant and pracitioner" />
+          <meta name="description" content="Nick is an experienced UX practitioner available to work on small design or research projects.  Nick is also available to help on a consultancy basis, using his experience as a UX design manager and design system product owner." />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Nick Elliott - Lead UX Designer and Design System Product Manager" />
-          <meta property="og:description" content="Nick is a Design System Product Manager at Iress. He is also an experienced UX designer." />
+          <meta property="og:title" content="Nick Elliott - UX & design system consultant and pracitioner" />
+          <meta property="og:description" content="Nick is an experienced UX practitioner available to work on small design or research projects.  Nick is also available to help on a consultancy basis, using his experience as a UX design manager and design system product owner." />
         </Head>
         <body>
           <Main />

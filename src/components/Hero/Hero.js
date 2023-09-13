@@ -12,12 +12,8 @@ const Hero = (props) => (
           Hi there,
         </SectionTitle>
         <SectionText>
-                    I'm Nick Elliott.  I am also an experienced Lead UX designer from Cheltenham, UK.  I currently work as a Design System Product Manager at Iress. I'm passionate about creating stress-free experiences and making the complex, simple. I enjoy working on enterprise systems, working collaboratively wtih smart people.
+                    I'm Nick Elliott.  I'm an experienced UX consultant and practitioner based in Cheltenham, UK.  I'm currently available to work on small design or research projects.  I'm also available to help on a consultancy basis, using my experience as a UX design manager and design system product owner.
         </SectionText>
-        <Button onClick={(e) => {
-          e.preventDefault();
-          window.location.href = '/files/resume.pdf';
-        }}>My Resume</Button>
       </LeftSection>
     </Section>
   </>
