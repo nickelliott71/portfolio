@@ -8,7 +8,7 @@ const Header = () => (
   <Container>
     <Div1>
       <Image
-        src="/public/images/website-logo.png"
+        src="./public/images/website-logo.png"
         width={50}
         height={50}
         alt=""
