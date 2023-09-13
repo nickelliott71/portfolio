@@ -8,10 +8,10 @@ const Header = () => (
   <Container>
     <Div1>
       <Image
-        src="/profile.png"
-        width={500}
-        height={500}
-        alt="Picture of the author"
+        src="/public/images/website-logo.png"
+        width={50}
+        height={50}
+        alt=""
       />
       <Link
         href="/"
@@ -38,7 +38,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="https://blog.vipuljha.com">
+        <a href="#">
           <NavLink>Blog</NavLink>
         </a>
       </li>
