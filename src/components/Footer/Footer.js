@@ -13,11 +13,6 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Website based on a template design by Vipul Jha. Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Vipul Jha</Link>. All rights reserved.</Slogan>
         </CompanyContainer>
-        <SocialContainer>
-          <SocialIcons href="https://www.linkedin.com/in/nickelliott/">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
       </SocialIconsContainer>
 
     </FooterWrapper>
