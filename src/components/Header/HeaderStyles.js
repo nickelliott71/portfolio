@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: [a] 225px [b] auto [c] auto;
+  grid-template-columns: [a] 200px [b] auto [c] auto;
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
@@ -17,7 +17,7 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
     @media ${(props) => props.theme.breakpoints.sm} {
-      grid-template-rows: [a] 50px [b] 50px [c] 50px;
+      grid-template-rows: [a] 50px [b] 30px [c] 30px;
     }
   }
 `;
@@ -27,7 +27,7 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 1 / 1 / 4;
     justify-content: center;
   }
 `;
@@ -36,7 +36,7 @@ export const Div2 = styled.div`
   display: flex;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 1 / 2 / 3;
+    grid-area: 2 / 1 / 2 / 4;
     margin-top: 0.75em;
     justify-content: center;
   }
@@ -47,7 +47,7 @@ export const Div3 = styled.div`
   justify-content: flex-end;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 1 / 2 / 3;
+    grid-area: 3 / 1 / 3 / 4;
     margin-top: 0.75em;
     justify-content: center;
   }
