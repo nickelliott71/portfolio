@@ -17,7 +17,7 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
     @media ${(props) => props.theme.breakpoints.sm} {
-      grid-template-rows: [a] 50px [b] 30px [c] 30px;
+      grid-template-rows: [a] auto [b] 20px [c] 60px;
     }
   }
 `;
