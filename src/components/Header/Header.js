@@ -15,10 +15,10 @@ const Header = () => (
       />
       <Link
         href="/"
-        style={{ display: 'flex', alignItems: 'center', color: "white", fontSize: 32 }}>
+        style={{ display: 'flex', alignItems: 'center', color: "white", fontSize: 36 }}>
 
-        <span style={{ marginLeft: 10, marginTop: 7, color: "#EC8B53" }} >Elliott</span>
-        <span> UX</span>
+        <span style={{ marginLeft: 10, color: "#EC8B53" }} >Elliott</span>
+        <span style={{ marginLeft: 10  }}> UX</span>
 
       </Link>
     </Div1>
