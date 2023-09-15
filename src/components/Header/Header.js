@@ -23,11 +23,6 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects" legacyBehavior>
-          <NavLink>Case studies</NavLink>
-        </Link>
-      </li>
-      <li>
         <Link href="#skills" legacyBehavior>
           <NavLink>Skills</NavLink>
         </Link>

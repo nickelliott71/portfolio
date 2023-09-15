@@ -14,7 +14,6 @@ const HomeCopy = () => {
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
       <Technologies />
       <Timeline />
       <Acomplishments />
