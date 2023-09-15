@@ -23,7 +23,7 @@ const Header = () => (
       </Link>
     </Div1>
     <Div2>
-        <span style={{ display: 'block', fontSize: 18, color: "#D9D9D9" }} >Consultant & practitioner</span>
+        <span style={{ fontSize: 20, color: "#D9D9D9" }} >Consultant & practitioner</span>
     </Div2>
     <Div3>
       <li>

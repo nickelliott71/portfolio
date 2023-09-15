@@ -8,6 +8,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  align-items: center;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -30,22 +31,22 @@ export const Div1 = styled.div`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  margin-top: 0.75em;
   justify-content: flex-end;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 1 / 2 / 3;
+    margin-top: 0.75em;
     justify-content: center;
   }
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  margin-top: 0.75em;
   justify-content: flex-end;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 1 / 2 / 3;
+    margin-top: 0.75em;
     justify-content: center;
   }
 `;
