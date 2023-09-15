@@ -1,6 +1,6 @@
 
 import Image from 'next/image';
-import { Container } from './LayoutStyles'
+import { Container } from '../layout/LayoutStyles'
 
 
 const Home = () => {
