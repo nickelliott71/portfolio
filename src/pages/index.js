@@ -1,20 +1,19 @@
-import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+
 import Image from 'next/image';
+import { Container } from './LayoutStyles'
 
 
 const Home = () => {
   return (
-    <Layout>
-      <Section grid>
+    <Container>
       <Image
         src="/images/website-logo.png"
         width={200}
         height={200}
         alt=""
       />
-      </Section>
-    </Layout>
+      <p>Coming soon...</p>
+    </Container>
   );
 };
 
