@@ -19,12 +19,11 @@ const Header = () => (
 
         <span style={{ marginLeft: 10, color: "#EC8B53" }} >Elliott</span>
         <span> UX</span>
+
+        <span style={{ display: 'block', color: "#D9D9D9" }} >Consultant & practitioner</span>
       </Link>
     </Div1>
     <Div2>
-        <span style={{ color: "#D9D9D9" }} >Consultant & practitioner</span>
-    </Div2>
-    <Div3>
       <li>
         <Link href="#skills" legacyBehavior>
           <NavLink>How I can help</NavLink>
@@ -40,7 +39,7 @@ const Header = () => (
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </li>      
-    </Div3>
+    </Div2>
   </Container>
 );
 
