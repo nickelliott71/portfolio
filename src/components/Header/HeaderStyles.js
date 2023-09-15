@@ -36,6 +36,7 @@ export const Div2 = styled.div`
   display: flex;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 2 / 1 / 2 / 3;
     margin-top: 0.75em;
     justify-content: center;
   }
@@ -46,6 +47,7 @@ export const Div3 = styled.div`
   justify-content: flex-end;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
+    grid-area: 2 / 1 / 2 / 3;
     margin-top: 0.75em;
     justify-content: center;
   }
