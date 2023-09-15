@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: [a] 250px [b] auto;
+  grid-template-columns: [a] 225px [b] auto [c] auto;
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
@@ -12,10 +12,13 @@ export const Container = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
-    grid-template-columns: [a] 225px [b] auto [c] auto;
-    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: [a] auto [b] auto [c] auto;
+    grid-template-rows: [a] 50px [b] 50px [c] 50px;
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
+    @media ${(props) => props.theme.breakpoints.sm} {
+      grid-template-rows: [a] 50px [b] 30px [c] 30px;
+    }
   }
 `;
 export const Div1 = styled.div`
@@ -29,7 +32,7 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 2 / 2 / 2 / 3;
   display: flex;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -39,7 +42,7 @@ export const Div2 = styled.div`
   }
 `;
 export const Div3 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 3 / 2 / 3 / 3;
   display: flex;
   justify-content: flex-end;
   column-gap: 24px;
