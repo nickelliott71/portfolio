@@ -22,6 +22,9 @@ const Header = () => (
       </Link>
     </Div1>
     <Div2>
+        <span style={{ color: "#D9D9D9" }} >Consultant & practitioner</span>
+    </Div2>
+    <Div3>
       <li>
         <Link href="#skills" legacyBehavior>
           <NavLink>How I can help</NavLink>
@@ -37,7 +40,7 @@ const Header = () => (
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </li>      
-    </Div2>
+    </Div3>
   </Container>
 );
 

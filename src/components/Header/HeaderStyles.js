@@ -39,13 +39,14 @@ export const Div2 = styled.div`
   }
 `;
 export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
+  grid-area: 1 / 2 / 2 / 4;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  margin-top: 0.75em;
+  justify-content: flex-end;
+  column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    grid-area: 2 / 1 / 2 / 3;
+    justify-content: center;
   }
 `;
 
