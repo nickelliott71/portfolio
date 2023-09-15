@@ -18,8 +18,7 @@ const Header = () => (
         style={{ display: 'flex', alignItems: 'center', color: "white", fontSize: 36 }}>
 
         <span style={{ marginLeft: 10, color: "#EC8B53" }} >Elliott</span>
-        <span style={{ marginLeft: 10  }}> UX</span>
-
+        <span> UX</span>
       </Link>
     </Div1>
     <Div2>
@@ -38,12 +37,12 @@ const Header = () => (
           <NavLink>Blog</NavLink>
         </a>
       </li>
+      <li>
+        <SocialIcons href="https://www.linkedin.com/in/nickelliott/">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+      </li>      
     </Div2>
-    <Div3>
-      <SocialIcons href="https://www.linkedin.com/in/nickelliott/">
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-    </Div3>
   </Container>
 );
 
