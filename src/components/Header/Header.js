@@ -33,11 +33,6 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="#">
-          <NavLink>Blog</NavLink>
-        </a>
-      </li>
-      <li>
         <SocialIcons href="https://www.linkedin.com/in/nickelliott/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
