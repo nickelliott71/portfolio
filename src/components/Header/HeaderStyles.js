@@ -13,12 +13,10 @@ export const Container = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: [a] auto [b] auto [c] auto;
-    grid-template-rows: [a] 50px [b] 50px [c] 50px;
+    grid-template-rows: [a] auto [b] 20px [c] 60px;
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    @media ${(props) => props.theme.breakpoints.sm} {
-      grid-template-rows: [a] auto [b] 20px [c] 60px;
-    }
+    padding-top: 1rem;
   }
 `;
 export const Div1 = styled.div`
