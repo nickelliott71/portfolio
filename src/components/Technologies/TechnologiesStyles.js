@@ -35,11 +35,11 @@ export const List = styled.ul`
   margin-bottom: 4rem;
   
   @media ${props => props.theme.breakpoints.lg}{
-    margin: 64px 0;
+    margin: 1em 0;
   }
 
   @media ${props => props.theme.breakpoints.md}{
-    margin: 64px 0;
+    margin: 1em 0;
     gap: 24px
   }
   
