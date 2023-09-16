@@ -8,7 +8,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>How I can help</SectionTitle>
     <SectionText>
-    I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
+    I like helping compnaies be the best they can be.  Here are a few ways I can help.
     </SectionText>
     <List>
       {Skills.map((Skill) => (
