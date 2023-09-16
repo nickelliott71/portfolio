@@ -8,7 +8,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>How I can help</SectionTitle>
     <SectionText>
-    I like helping compnaies be the best they can be.  Here are a few ways I can help.
+    I enjoy helping companies be the best they can be through great design and creating awesome experiences.  Here are a few ways I can help.
     </SectionText>
     <List>
       {Skills.map((Skill) => (
