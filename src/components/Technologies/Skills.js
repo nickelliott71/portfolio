@@ -7,14 +7,14 @@ export const Skills = [
   {
     slug: "research",
     Component: DiAndroid,
-    title: "Research",
-    Description: () => <>Run research projects, identifying the real problems that will make a difference to your service or product. Host sessions and create resources that help bring stories to life and excite your whole product team.</>,
+    title: "User research",
+    Description: () => <>Run research projects, identifying the real problems that will make a difference to your service or product. <br/>Host sessions and create resources that help bring stories to life and excite your whole product team.</>,
   },
   {
-    slug: "flutter",
+    slug: "ideation",
     Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Cross-platform app development</>,
+    title: "Ideation & design",
+    Description: () => <>Help teams take a problem or insight and work through solutions that will elevate you above your competitors.</>,
   },
   {
     slug: "kotlin",

@@ -63,8 +63,6 @@ export const CompanyContainer = styled.div`
   display: flex;
 	align-items:baseline;
 	flex-wrap: wrap;
-	margin-right: auto;
-	
 
 	@media ${props => props.theme.breakpoints.md}{
 		flex-direction: column;
