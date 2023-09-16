@@ -17,3 +17,17 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const SectionImage = styled.div`
+  
+  margin-top: 11em;
+
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+
+  }
+`;
+
