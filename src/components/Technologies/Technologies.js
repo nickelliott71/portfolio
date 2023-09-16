@@ -4,9 +4,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from "./Tech
 import { Skills } from './Skills'
 
 const Technologies = () => (
-  <Section id="skills">
+  <Section id="howicanhelp">
     <SectionDivider divider />
-    <SectionTitle>Skills</SectionTitle>
+    <SectionTitle>How I can help</SectionTitle>
     <SectionText>
     I have extensive experience working with a variety of technologies as a developer. I've developed and maintained multiple projects using these technologies, and I'm always eager to learn more.
     </SectionText>
