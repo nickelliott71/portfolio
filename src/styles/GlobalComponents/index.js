@@ -9,6 +9,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: auto auto;
+  grid-column-gap: 5em;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -20,6 +21,8 @@ export const Section = styled.section`
 
     width: calc(100vw - 32px);
     flex-direction: column;
+    grid-template-columns: 100% 0;
+    grid-column-gap: 0;
   }
 `
 
