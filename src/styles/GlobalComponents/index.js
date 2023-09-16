@@ -11,6 +11,13 @@ export const Section = styled.section`
   grid-template-columns: auto auto;
   grid-column-gap: 5em;
 
+  @media ${(props) => props.theme.breakpoints.LinkIconImg} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+    grid-template-columns: 100% 0;
+    grid-column-gap: 0;
+  }
+
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
