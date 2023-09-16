@@ -5,10 +5,10 @@ import { TbBrandKotlin } from "react-icons/tb";
 
 export const Skills = [
   {
-    slug: "android",
+    slug: "research",
     Component: DiAndroid,
-    title: "Android",
-    Description: () => <>Android Apps, ROMs, & Kernels</>,
+    title: "Research",
+    Description: () => <>Run research projects, identifying the real problems that will make a difference to your service or product. Host sessions and create resources that help bring stories to life and excite your whole product team.</>,
   },
   {
     slug: "flutter",
