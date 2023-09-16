@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle, Link } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import Image from 'next/image';
 
 const HeroImage = (props) => (
   <>
