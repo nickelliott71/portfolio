@@ -20,14 +20,14 @@ export const LeftSection = styled.div`
 
 export const SectionImage = styled.div`
   
-  margin-top: 11em;
+  margin-top: 6em;
 
 
   @media ${(props) => props.theme.breakpoints.sm} {
 
   }
   @media ${(props) => props.theme.breakpoints.md} {
-
+    margin-top: 11em;
   }
 `;
 
