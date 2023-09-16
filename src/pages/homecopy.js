@@ -1,6 +1,7 @@
 import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
+import Hero from '../components/HeroImage/HeroImage';
 import Projects from '../components/Projects/Projects';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
@@ -13,13 +14,7 @@ const HomeCopy = () => {
     <Layout>
       <Section grid>
         <Hero />
-        <Image
-        src="/images/website-logo.png"
-        width={200}
-        height={200}
-        alt=""
-      />
-        <BgAnimation />
+        <HeroImage/>
       </Section>
       <Technologies />
       <Timeline />
