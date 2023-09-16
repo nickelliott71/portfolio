@@ -24,10 +24,11 @@ export const SectionImage = styled.div`
 
 
   @media ${(props) => props.theme.breakpoints.sm} {
-
+    width: 0%;
   }
   @media ${(props) => props.theme.breakpoints.md} {
     margin-top: 11em;
+    width: 0%;
   }
 `;
 
