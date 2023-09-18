@@ -64,5 +64,6 @@ export const TimeLineData = [
   { year: 2012, text: 'Switched my focus to user experience, creating and leading a newly formed team.', },
   { year: 2015, text: 'Moved to Sydney and helped set up the design function there.', },
   { year: 2018, text: 'Returned to UK and managed a global design team.', },
-  { year: 2021, text: 'Focused on design systems as a Product Manager', },
+  { year: 2021, text: 'Focused on design systems as a Product Manager.', },
+  { year: 2023, text: 'Set up on my own...', },
 ];
