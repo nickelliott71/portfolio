@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>My Journey</SectionTitle>
       <SectionText>
-        I'm a keen beliver that you are always learning.  Every experience layers onto the last.  Here's a few highlights of my journey. 
+        I'm a firm beliver that you are always learning.  Every experience layers onto the last.  Here's a few highlights of my experiences so far. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

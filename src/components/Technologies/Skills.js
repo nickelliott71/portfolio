@@ -20,25 +20,30 @@ export const Skills = [
     slug: "prototyping",
     Component: TbBrandKotlin,
     title: "Prototyping",
-    Description: () => <>Android apps and Lambda functions</>,
+    Description: () => <><p>Help turn your ideas into something you can test and learn from.</p><p>From low fidelity prototypes, such as sketches, to more polished and complex artefacts using Figma or similar prototyping tools.</p></>,
   },
   {
     slug: "testing",
     Component: SiDart,
     title: "Usability testing",
-    Description: () => <>Flutter apps only</>,
+    Description: () => <><p>Run tests to ensure you are solving the right problems in the right way.</p><p>Help get you meaningful feedback and insights that will further improve your service or app.</p></>,
+  },
+  {
+    slug: "reviews",
+    Component: DiHtml5,
+    title: "Design reviews",
+    Description: () => <><p>Help run reviews of existing apps or new designs, falling back on my 20 years of usability experience and best practice to give you insights that will help you improve the experiences you create.</p></>,
   },
   {
     slug: "ds",
     Component: DiJava,
     title: "Design systems",
-    Description: () => <>Android apps and Lambda functions</>,
+    Description: () => <><p>Consult on how to make the most out of your design system and help create efficiencies throughout the design and development process.</p></>,
   },
-
   {
     slug: "accessibility",
     Component: DiHtml5,
     title: "Accessibility",
-    Description: () => <>Static webpages and portfolio projects</>,
+    Description: () => <><p>Perform accessibility audits on your apps. Help teams with strategies to resolve issues early in your development process</p></>,
   }
 ];
