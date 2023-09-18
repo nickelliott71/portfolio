@@ -57,12 +57,12 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started my journey as a developer.', },
-  { year: 2017, text: 'Worked intensively on ROMs & Kernels.', },
-  { year: 2018, text: 'Learned Android app development.', },
-  { year: 2019, text: 'Finished Diploma in Computer Engineering.', },
-  { year: 2020, text: 'Aquired new skills while trying not to catch COVID-19', },
-  { year: 2021, text: 'Survived COVID-19 and got my first Job at Primebook.', },
-  { year: 2022, text: 'Completed B.Tech in Information Technology.', },
-  { year: 2023, text: 'Year under progress....', },
+  { year: 2001, text: 'Started my journey as a developer at a publishing company.', },
+  { year: 2003, text: 'Managed the ecommerce operation.', },
+  { year: 2005, text: 'Switched to developing websites for financial services.', },
+  { year: 2011, text: 'Led my 1st frontend development team.', },
+  { year: 2012, text: 'Switched my focus to user experience, creating and leading a newly formed team.', },
+  { year: 2015, text: 'Moved to Sydney and helped set up the design function there.', },
+  { year: 2018, text: 'Returned to UK and managed a global design team.', },
+  { year: 2021, text: 'Focused on design systems as a Product Manager', },
 ];
