@@ -94,8 +94,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ?
-    'linear-gradient(270deg, #ec8b53 0%, #9a0e9a 100%)' :
-    'linear-gradient(270deg, #ec8b53 0%, #9a0e9a 100%)'};
+    'linear-gradient(270deg, #ffffff 0%, #ec8b53 100%)' :
+    'linear-gradient(270deg, #ffffff 0%, #ec8b53 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : ""};
 
