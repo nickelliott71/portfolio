@@ -27,17 +27,22 @@ export const FieldLabel = styled.label`
   }
 `
 
-export const FieldInput = styled.input`
+// Define a base styled component with shared styles
+const SharedInput = styled.div`
   background-color: rgb(45,45,45);
   border: 1px solid rgba(255,255,255,0.25);
   border-radius: 0.25em;
   padding: 0.25em;
+`;
 
-  @media ${props => props.theme.breakpoints.md}{
+// Create a styled input component extending the shared styles
+export const FieldInput = styled.input`
+  ${SharedInput} /* Include shared styles */
+  color: hotpink;
+`;
 
-  }
-
-  @media ${props => props.theme.breakpoints.sm}{
-
-  }
-`
+// Create a styled textarea component extending the shared styles
+export const FieldTextarea = styled.textarea`
+  ${SharedInput} /* Include shared styles */
+  color: green;
+`;
