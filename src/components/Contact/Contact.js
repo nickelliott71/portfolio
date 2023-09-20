@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <form onSubmit={handleSubmit}>
       <Field>
-        <label htmlFor="name">Name:</label>
+        <FieldLabel htmlFor="name">Name</FieldLabel>
         <input
           type="text"
           id="name"
@@ -39,7 +39,7 @@ const Contact = () => {
         />
       </Field>
       <Field>
-        <label htmlFor="email">Email:</label>
+        <FieldLabel htmlFor="email">Email</FieldLabel>
         <input
           type="email"
           id="email"
@@ -50,7 +50,7 @@ const Contact = () => {
         />
       </Field>
       <Field>
-        <label htmlFor="phoneNumber">Phone Number:</label>
+        <FieldLabel htmlFor="phoneNumber">Phone Number</FieldLabel>
         <input
           type="tel"
           id="phoneNumber"
@@ -61,7 +61,7 @@ const Contact = () => {
         />
       </Field>
       <Field>
-        <label htmlFor="message">Message:</label>
+        <FieldLabel htmlFor="message">How can I help?</FieldLabel>
         <textarea
           id="message"
           name="message"
