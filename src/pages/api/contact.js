@@ -1,5 +1,8 @@
 import nodemailer from 'nodemailer';
 
+const emailAddress = process.env.EMAIL_ADDRESS;
+const emailPwd = process.env.EMAIL_PWD;
+
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
@@ -7,13 +10,15 @@ export default async function handler(req, res) {
 
       // Create a Nodemailer transporter
       const transporter = nodemailer.createTransport({
-        // Set your email service provider and credentials here
-        service: 'YourEmailServiceProvider',
+        host: 'smtp.office365.com',
+        port: 587,
+        secure: true, // Set to true if you use SSL/TLS
         auth: {
-          user: 'YourEmailAddress',
-          pass: 'YourEmailPassword',
+          user: 'your-email@example.com', // Your Microsoft 365 email address
+          pass: 'your-password', // Your email password or app password if 2FA is enabled
         },
       });
+
 
       // Define the email content
       const mailOptions = {
