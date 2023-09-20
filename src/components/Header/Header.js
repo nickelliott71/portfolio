@@ -37,6 +37,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="#contact" legacyBehavior>
+          <NavLink>Contact</NavLink>
+        </Link>
+      </li>      
+      <li>
         <SocialIcons href="https://www.linkedin.com/in/nickelliott/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>

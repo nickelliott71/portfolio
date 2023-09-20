@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <Section>
+    <Section id="contact">
       <SectionTitle>Contact</SectionTitle>
       <form onSubmit={handleSubmit}>
         <Field>
