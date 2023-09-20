@@ -1,11 +1,6 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
-import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
-import { TbBrandKotlin } from "react-icons/tb";
-
-
 import { GrAccessibility } from "react-icons/gr";
-import { FaRegLightbulb, FaListCheck, FaRegEye, FaMicrochip, FaUserFriends } from "react-icons/fa6";
+import { FaRegLightbulb, FaListCheck, FaRegEye, FaMicrochip } from "react-icons/fa6";
+import { FaUserFriends } from "react-icons/fa";
 import { LuToyBrick } from "react-icons/lu";
 import { SiMaterialdesignicons } from "react-icons/si";
 
