@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Field, FieldLabel, FieldInput, FieldTextArea } from './ContactStyles.js';
+import { Field, FieldLabel, FieldInput, FieldTextArea, SubmitButton } from './ContactStyles.js';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -73,7 +73,7 @@ const Contact = () => {
             required
           />
         </Field>
-        <button type="submit">Submit</button>
+        <SubmitButton type="submit">Submit</SubmitButton>
       </form>
     </Section>
   );
