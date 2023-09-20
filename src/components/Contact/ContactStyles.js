@@ -70,6 +70,7 @@ export const SubmitButton = styled.button`
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
+  margin-bottom: 1em;
   align-items: center;
   justify-content: center;
   cursor: pointer;
