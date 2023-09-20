@@ -65,7 +65,7 @@ export const SubmitButton = styled.button`
   border-radius: 0.25em;
   padding: 0.5em;
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'rgb(236, 139, 83);' : 'rgb(154, 14, 154);'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};

@@ -73,7 +73,7 @@ const Contact = () => {
             required
           />
         </Field>
-        <SubmitButton type="submit">Submit</SubmitButton>
+        <SubmitButton type="submit">Send</SubmitButton>
       </form>
     </Section>
   );
