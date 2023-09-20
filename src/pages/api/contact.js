@@ -12,7 +12,7 @@ export default async function handler(req, res) {
       const transporter = nodemailer.createTransport({
         host: 'smtp.office365.com',
         port: 587,
-        secure: true, // Set to true if you use SSL/TLS
+        secure: false, // Set to true if you use SSL/TLS
         auth: {
           user: emailAddress, // Your Microsoft 365 email address
           pass: emailPwd, // Your email password or app password if 2FA is enabled
