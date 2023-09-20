@@ -26,7 +26,7 @@ const Contact = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <Field>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -36,8 +36,8 @@ const Contact = () => {
           onChange={handleChange}
           required
         />
-      </div>
-      <div>
+      </Field>
+      <Field>
         <label htmlFor="email">Email:</label>
         <input
           type="email"
@@ -47,8 +47,8 @@ const Contact = () => {
           onChange={handleChange}
           required
         />
-      </div>
-      <div>
+      </Field>
+      <Field>
         <label htmlFor="phoneNumber">Phone Number:</label>
         <input
           type="tel"
@@ -58,8 +58,8 @@ const Contact = () => {
           onChange={handleChange}
           required
         />
-      </div>
-      <div>
+      </Field>
+      <Field>
         <label htmlFor="message">Message:</label>
         <textarea
           id="message"
@@ -68,7 +68,7 @@ const Contact = () => {
           onChange={handleChange}
           required
         />
-      </div>
+      </Field>
       <button type="submit">Submit</button>
     </form>
   );
