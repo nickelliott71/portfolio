@@ -27,16 +27,15 @@ export const FieldLabel = styled.label`
   }
 `
 
-
-
 export const FieldInput = styled.input`
   background-color: rgb(45,45,45);
   border: 1px solid rgba(255,255,255,0.25);
   border-radius: 0.25em;
   padding: 0.25em;
+  width: 500px;
 
   @media ${props => props.theme.breakpoints.md}{
-
+    width: 100%;
   }
 
   @media ${props => props.theme.breakpoints.sm}{
@@ -49,9 +48,10 @@ export const FieldTextArea = styled.textarea`
   border: 1px solid rgba(255,255,255,0.25);
   border-radius: 0.25em;
   padding: 0.25em;
+  width: 500px;  
 
   @media ${props => props.theme.breakpoints.md}{
-
+    width: 100%;
   }
 
   @media ${props => props.theme.breakpoints.sm}{

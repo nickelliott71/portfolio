@@ -69,6 +69,7 @@ const Contact = () => {
             name="message"
             value={formData.message}
             onChange={handleChange}
+            rows="5"
             required
           />
         </Field>
