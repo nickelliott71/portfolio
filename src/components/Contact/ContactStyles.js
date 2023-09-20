@@ -28,7 +28,7 @@ export const FieldLabel = styled.label`
 `
 
 // Define a base styled component with shared styles
-const SharedInput = styled.div`
+export const SharedInput = styled.div`
   background-color: rgb(45,45,45);
   border: 1px solid rgba(255,255,255,0.25);
   border-radius: 0.25em;
