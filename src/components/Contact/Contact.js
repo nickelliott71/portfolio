@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Field } from './ContactStyles.js';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
