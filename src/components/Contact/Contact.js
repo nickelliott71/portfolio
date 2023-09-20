@@ -19,10 +19,28 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here, e.g., send data to a server or perform actions.
-    console.log(formData);
+    
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        // Handle success, e.g., show a success message to the user
+        console.log('Email sent successfully');
+      } else {
+        // Handle errors, e.g., show an error message to the user
+        console.error('Error sending email');
+      }
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (
