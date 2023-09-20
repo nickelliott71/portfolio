@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Field, FieldLabel, FieldInput, FieldTextarea } from './ContactStyles.js';
+import { Field, FieldLabel, FieldInput, FieldTextArea } from './ContactStyles.js';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -64,7 +64,7 @@ const Contact = () => {
         </Field>
         <Field>
           <FieldLabel htmlFor="message">How can I help?</FieldLabel>
-          <textarea
+          <FieldTextArea
             id="message"
             name="message"
             value={formData.message}
