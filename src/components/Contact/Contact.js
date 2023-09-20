@@ -30,7 +30,7 @@ const Contact = () => {
       <SectionTitle>Contact</SectionTitle>
       <form onSubmit={handleSubmit}>
         <Field>
-          <FieldLabel htmlFor="name">Name</FieldLabel>
+          <FieldLabel htmlFor="name">Your name</FieldLabel>
           <FieldInput
             type="text"
             id="name"
@@ -41,7 +41,7 @@ const Contact = () => {
           />
         </Field>
         <Field>
-          <FieldLabel htmlFor="email">Email</FieldLabel>
+          <FieldLabel htmlFor="email">Email address</FieldLabel>
           <FieldInput
             type="email"
             id="email"
