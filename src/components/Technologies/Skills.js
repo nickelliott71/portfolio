@@ -31,19 +31,25 @@ export const Skills = [
   {
     slug: "reviews",
     Component: DiHtml5,
-    title: "Design reviews",
-    Description: () => <><p>Help run reviews of existing apps or new designs, falling back on my 20 years of usability experience and best practice to give you insights that will help you improve the experiences you create.</p></>,
+    title: "Reviews and critiques",
+    Description: () => <><p>Help evaluate existing apps or new designs through usability reviews and critiques.</p><p>This will highlight insights that will help you improve the experiences you create.</p></>,
   },
   {
     slug: "ds",
     Component: DiJava,
     title: "Design systems",
-    Description: () => <><p>Consult on how to make the most out of your design system and help create efficiencies throughout the design and development process.</p></>,
+    Description: () => <><p>Consult on how to make the most out of your design system and help create consistency and efficiency throughout the design and development process.</p></>,
   },
   {
     slug: "accessibility",
     Component: DiHtml5,
     title: "Accessibility",
-    Description: () => <><p>Perform accessibility audits on your apps. Help teams with strategies to resolve issues early in your development process</p></>,
+    Description: () => <><p>Perform accessibility audits on your apps.</p><p>Help teams with strategies to resolve issues early in your development process.</p></>,
+  },
+  {
+    slug: "emerging",
+    Component: DiHtml5,
+    title: "Emerging technologies",
+    Description: () => <><p>Advise on the latest UX trends and emerging technologies, including how to make the most of AI tools in the workplace.</p></>,
   }
 ];
