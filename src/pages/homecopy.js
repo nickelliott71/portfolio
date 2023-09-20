@@ -1,4 +1,4 @@
-import Acomplishments from '../components/Acomplishments/Acomplishments';
+import Contact from '../components/Contact/Contact';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import HeroImage from '../components/Hero/HeroImage';
@@ -17,7 +17,7 @@ const HomeCopy = () => {
       </Section>
       <Technologies />
       <Timeline />
-      <Acomplishments />
+      <Contact />
     </Layout>
   );
 };
