@@ -3,6 +3,7 @@ import { FaRegLightbulb, FaListCheck, FaRegEye, FaMicrochip } from "react-icons/
 import { FaUserFriends } from "react-icons/fa";
 import { LuToyBrick } from "react-icons/lu";
 import { SiMaterialdesignicons } from "react-icons/si";
+import { ImAccessibility } from "react-icons/im";
 
 export const Skills = [
   {
@@ -43,7 +44,7 @@ export const Skills = [
   },
   {
     slug: "accessibility",
-    Component: GrAccessibility,
+    Component: ImAccessibility,
     title: "Accessibility",
     Description: () => <><p>Perform accessibility audits on your apps.</p><p>Help teams with strategies to resolve issues early in your development process.</p></>,
   },

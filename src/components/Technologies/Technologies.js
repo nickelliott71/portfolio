@@ -3,18 +3,6 @@ import { Section, SectionDivider, SectionText, SectionTitle, } from "../../style
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from "./TechnologiesStyles";
 import { Skills } from './Skills'
 
-const customColorTheme = deepMerge(base, {
-  icon: {
-    extend: css`
-      ${(props) =>
-        props.color === "forcewhite" &&
-        `
-      fill: #FFFFFF;
-    `}
-    `
-  }
-});
-
 const Technologies = () => (
   <Section id="howicanhelp">
     <SectionDivider divider />
@@ -26,7 +14,7 @@ const Technologies = () => (
       {Skills.map((Skill) => (
         <ListItem key={Skill.slug}>
           <picture>
-            <Skill.Component color="forcewhite" size="3rem" />
+            <Skill.Component size="3rem" />
           </picture>
           <ListContainer>
             <ListTitle>{Skill.title}</ListTitle>
