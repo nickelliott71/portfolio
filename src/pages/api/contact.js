@@ -14,16 +14,16 @@ export default async function handler(req, res) {
         port: 587,
         secure: true, // Set to true if you use SSL/TLS
         auth: {
-          user: 'your-email@example.com', // Your Microsoft 365 email address
-          pass: 'your-password', // Your email password or app password if 2FA is enabled
+          user: emailAddress, // Your Microsoft 365 email address
+          pass: emailPwd, // Your email password or app password if 2FA is enabled
         },
       });
 
 
       // Define the email content
       const mailOptions = {
-        from: 'YourEmailAddress',
-        to: 'RecipientEmailAddress', // Change to the recipient's email address
+        from: emailAddress,
+        to: emailAddress, // Change to the recipient's email address
         subject: 'New Contact Form Submission',
         html: `
           <p>Name: ${name}</p>
