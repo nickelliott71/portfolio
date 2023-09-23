@@ -48,7 +48,7 @@ export const Div3 = styled.div`
     grid-area: 3 / 1 / 3 / 4;
     margin-top: 0.75em;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 16px;
   }
 `;
 
