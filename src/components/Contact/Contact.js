@@ -32,7 +32,7 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
-      console.log(repsonse);
+      console.log(response);
   
       if (response.ok) {
         // Handle success, e.g., show a success message to the user
