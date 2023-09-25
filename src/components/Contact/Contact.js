@@ -46,7 +46,7 @@ const Contact = () => {
   return (
     <Section id="contact">
       <SectionTitle>Contact</SectionTitle>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} action="/api/contact" method="POST">
         <Field>
           <FieldLabel htmlFor="name">Your name</FieldLabel>
           <FieldInput
