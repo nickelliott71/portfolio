@@ -4,9 +4,12 @@ const emailAddress = process.env.EMAIL_ADDRESS;
 const emailPwd = process.env.EMAIL_PWD;
 
 export default async function handler(req, res) {
+  
+  console.log("here 1")
+
   if (req.method === 'POST') {
 
-    console.log("here")
+    console.log("here 2")
     try {
       const { name, email, phoneNumber, message } = req.body;
 
