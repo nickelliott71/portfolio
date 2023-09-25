@@ -24,7 +24,7 @@ const Contact = () => {
     console.log("here a");
 
     try {
-      const response = await fetch('https://' + process.env.NEXT_PUBLIC_VERCEL_URL + '/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
