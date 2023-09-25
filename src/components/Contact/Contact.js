@@ -21,7 +21,8 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+    console.log("here a");
+
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -30,6 +31,8 @@ const Contact = () => {
         },
         body: JSON.stringify(formData),
       });
+
+      console.log(repsonse);
   
       if (response.ok) {
         // Handle success, e.g., show a success message to the user
@@ -46,7 +49,7 @@ const Contact = () => {
   return (
     <Section id="contact">
       <SectionTitle>Contact</SectionTitle>
-      <form onSubmit={handleSubmit} action="/api/contact" method="POST">
+      <form onSubmit={handleSubmit}>
         <Field>
           <FieldLabel htmlFor="name">Your name</FieldLabel>
           <FieldInput
