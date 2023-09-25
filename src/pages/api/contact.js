@@ -48,5 +48,6 @@ export default async function handler(req, res) {
     }
   } else {
     res.status(405).end();
+    console.log("here 405")
   }
 }
