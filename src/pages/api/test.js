@@ -1,15 +1,3 @@
-import { NextResponse } from 'next/server';
- 
-export function GET(request) {
-  return NextResponse.json(
-    {
-      body: request.body,
-      path: request.nextUrl.pathname,
-      query: request.nextUrl.search,
-      cookies: request.cookies.getAll(),
-    },
-    {
-      status: 200,
-    },
-  );
-}
+export default function handler(req, res) {
+    res.status(200).json({ message: 'Hello from Next.js!' })
+  }
