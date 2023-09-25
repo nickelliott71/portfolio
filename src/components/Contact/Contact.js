@@ -23,7 +23,7 @@ const Contact = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('/pages/api/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -33,10 +33,10 @@ const Contact = () => {
   
       if (response.ok) {
         // Handle success, e.g., show a success message to the user
-        console.log('Email sent successfully');
+        console.log('Email sent successfully in component');
       } else {
         // Handle errors, e.g., show an error message to the user
-        console.error('Error sending email');
+        console.error('Error sending email in component');
       }
     } catch (error) {
       console.error(error);
