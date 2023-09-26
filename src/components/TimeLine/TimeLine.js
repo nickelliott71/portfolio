@@ -103,7 +103,7 @@ const Timeline = () => {
           return (
             <CarouselButton
               key={index}
-              name={`${item.year}`}
+              title={`${item.year}`}
               index={index}
               active={activeItem}
               onClick={(e) => handleClick(e, index)}
