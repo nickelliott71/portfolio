@@ -24,7 +24,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     grid-area: 1 / 1 / 1 / 4;
     justify-content: center;
   }
@@ -33,7 +33,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 3;
   display: flex;
   column-gap: 24px;
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     grid-area: 2 / 1 / 2 / 4;
     margin-top: 0.75em;
     justify-content: center;
@@ -44,7 +44,7 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: flex-end;
   column-gap: 24px;
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     grid-area: 3 / 1 / 3 / 4;
     margin-top: 0.75em;
     justify-content: center;
