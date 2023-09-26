@@ -35,7 +35,9 @@ export const List = styled.ul`
   margin-bottom: 4rem;
   
   @media ${props => props.theme.breakpoints.lg}{
-    margin: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
   }
 
   @media ${props => props.theme.breakpoints.md}{
