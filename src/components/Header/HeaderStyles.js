@@ -25,8 +25,8 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.lg} {
-    grid-area: 1 / 1 / 1 / 3;
-    justify-content: right;
+    grid-area: 1 / 1 / 1 / 4;
+    justify-content: center;
   }
   @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 1 / 1 / 1 / 4;
@@ -38,8 +38,9 @@ export const Div2 = styled.div`
   display: flex;
   column-gap: 24px;
   @media ${(props) => props.theme.breakpoints.lg} {
-    grid-area: 1 / 3 / 1 / 4;
-    justify-content: left;
+    grid-area: 2 / 1 / 2 / 4;
+    margin-top: 0.25em;
+    justify-content: center;
   }
   @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 2 / 1 / 2 / 4;
