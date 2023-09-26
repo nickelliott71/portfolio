@@ -45,11 +45,11 @@ export const LinkItem = styled.a`
 
 export const SocialIconsContainer = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: center;
 
 @media ${props => props.theme.breakpoints.md}{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 @media ${props => props.theme.breakpoints.sm}{

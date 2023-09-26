@@ -22,7 +22,7 @@ export const CarouselContainer = styled.ul`
      display: none;
    }
 
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.md} {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
@@ -32,7 +32,7 @@ export const CarouselContainer = styled.ul`
   }
 `
 export const CarouselMobileScrollNode = styled.div`
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.md} {
     display: flex;
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
   }
