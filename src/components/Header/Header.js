@@ -15,6 +15,7 @@ const Header = () => (
       />
       <Link
         href="/"
+        tabIndex={1}
         style={{ display: 'flex', alignItems: 'center', color: "white", fontSize: 36 }}>
 
         <span style={{ marginLeft: 10, color: "#EC8B53" }} >Elliott</span>
@@ -27,17 +28,17 @@ const Header = () => (
     </Div2>
     <Div3>
       <li>
-        <Link href="#howicanhelp" legacyBehavior aria-current="page">
+        <Link href="#howicanhelp" legacyBehavior aria-current="page" tabIndex={2}>
           <NavLink>How I can help</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about" legacyBehavior aria-current="page">
+        <Link href="#about" legacyBehavior aria-current="page" tabIndex={3}>
           <NavLink>About</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#contact" legacyBehavior aria-current="page">
+        <Link href="#contact" legacyBehavior aria-current="page" tabIndex={4}>
           <NavLink>Contact</NavLink>
         </Link>
       </li>      
