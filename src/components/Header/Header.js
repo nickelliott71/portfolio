@@ -33,7 +33,7 @@ const Header = () => (
       </li>
       <li>
         <Link href="#about" legacyBehavior aria-current="page">
-          <NavLink>About</NavLink>
+          <NavLink href="#about">About</NavLink>
         </Link>
       </li>
       <li>
