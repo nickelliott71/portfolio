@@ -47,11 +47,11 @@ export const SectionTitle = styled.h2`
     margin-bottom: 16px;
     padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
-  @media ${props => props.theme.breakpoints.md}{
+  @media ${props => props.theme.breakpoints.lg}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
     line-height: ${(props) => props.main ? '56px' : '48px'};
     margin-bottom: 12px;
-    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+    padding: ${(props) => props.main ? '24px 0 12px' : '0'};
   }
 
   @media ${props => props.theme.breakpoints.sm}{
