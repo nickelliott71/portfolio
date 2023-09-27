@@ -12,7 +12,7 @@ export const Section = styled.section`
   grid-column-gap: 5em;
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    padding: 24px 48px 0;
+    padding: 24px 24px 0;
     flex-direction: column;
     grid-template-columns: 100% 0;
     grid-column-gap: 0;
