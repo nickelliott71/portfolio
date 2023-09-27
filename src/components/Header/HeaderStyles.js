@@ -53,7 +53,7 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: flex-end;
   column-gap: 24px;
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     grid-area: 3 / 1 / 3 / 4;
     margin-top: 0.75em;
     justify-content: center;
