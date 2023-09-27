@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavText, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <Container>
@@ -28,17 +28,17 @@ const Header = () => (
     <Div3>
       <li>
         <Link href="#howicanhelp" aria-current="page">
-          <NavLink>How I can help</NavLink>
+          <NavText>How I can help</NavText>
         </Link>
       </li>
       <li>
         <Link href="#about" aria-current="page">
-          <NavLink href="#about">About</NavLink>
+          <NavText href="#about">About</NavText>
         </Link>
       </li>
       <li>
         <Link href="#contact" aria-current="page">
-          <NavLink href="#contact">Contact</NavLink>
+          <NavText href="#contact">Contact</NavText>
         </Link>
       </li>      
       <li>
