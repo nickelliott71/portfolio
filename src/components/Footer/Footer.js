@@ -2,7 +2,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { Link } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SloganLink, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SectionLink, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   const today = new Date();
@@ -11,7 +11,7 @@ const Footer = () => {
     <FooterWrapper>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Website based on a template design by <SloganLink href="https://www.vipuljha.com">  Vipul Jha</SloganLink></Slogan>
+          <Slogan>Website based on a template design by <SectionLink href="https://www.vipuljha.com">  Vipul Jha</SectionLink></Slogan>
         </CompanyContainer>
       </SocialIconsContainer>
 

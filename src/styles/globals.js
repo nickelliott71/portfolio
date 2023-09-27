@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
-  button:focus, a:focus {
+  button:focus, a:focus, input:focus, textarea:focus {
       outline: 2px solid rgb(222, 34, 222);
       outline-offset: 2px;
       border-radius: 4px;

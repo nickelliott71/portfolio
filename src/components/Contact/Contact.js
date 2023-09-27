@@ -3,6 +3,8 @@ import Link from 'next/link';
 
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { Field, FieldLabel, FieldInput, FieldTextArea, SubmitButton } from './ContactStyles.js';
+import { SectionLink } from './FooterStyles';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -51,7 +53,7 @@ const Contact = () => {
     <Section id="contact">
       <SectionTitle>Contact</SectionTitle>
       <SectionText>
-        If you think I can help, please fill in the following form and I'll get back to you.  Alternatively, send me a message on <Link href="https://www.linkedin.com/in/nickelliott/">LinkedIn</Link>.
+        If you think I can help, please fill in the following form and I'll get back to you.  Alternatively, send me a message on <SectionLink href="https://www.linkedin.com/in/nickelliott/">LinkedIn</SectionLink>.
       </SectionText>
       <form onSubmit={handleSubmit}>
         <Field>

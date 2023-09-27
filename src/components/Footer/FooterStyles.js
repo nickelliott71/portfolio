@@ -97,7 +97,7 @@ export const Slogan = styled.p`
 		min-width: 100px;
 	}
 `
-export const SloganLink = styled.a`
+export const SectionLink = styled.a`
 	color: rgba(236, 139, 83, 1);
 	text-decoration: underline;
 
