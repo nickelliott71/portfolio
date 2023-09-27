@@ -42,7 +42,7 @@ const Header = () => (
         </Link>
       </li>      
       <li>
-        <SocialIcons href="https://www.linkedin.com/in/nickelliott/">
+        <SocialIcons title="LinkedIn profile" href="https://www.linkedin.com/in/nickelliott/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </li>      
