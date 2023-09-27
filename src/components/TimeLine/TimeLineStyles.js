@@ -45,9 +45,6 @@ export const CarouselItem = styled.div`
 
   @media ${props => props.theme.breakpoints.lg} {
     max-width: 124px;
-  }
-  
-  @media ${props => props.theme.breakpoints.lg} {
     margin-left: 32px;
     min-width: 120px;
     background: #0F1624;
@@ -73,14 +70,7 @@ export const CarouselItemTitle = styled.h3`
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.lg} {
-    font-size: 20px;
-    line-height: 28px;
     margin-bottom: 4px;
-  }
-  
-  @media ${props => props.theme.breakpoints.lg} {
-    font-size: 20px;
-    line-height: 28px;
   }
 `
 export const CarouselItemImg = styled.svg`
@@ -103,13 +93,6 @@ export const CarouselItemText = styled.p`
   padding-right: 16px;
 
   @media ${props => props.theme.breakpoints.lg} {
-    font-size: 12px;
-    line-height: 18px;
-    padding-right: 32px;
-  }
-  @media ${props => props.theme.breakpoints.lg} {
-    font-size: 11px;
-    line-height: 18px;
     padding-right: 0;
   }
 `
