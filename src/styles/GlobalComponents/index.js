@@ -24,7 +24,7 @@ export const Section = styled.section`
     flex-direction: column;
     grid-template-columns: 100% 0;
     grid-column-gap: 0;
-    width: 100%;
+    width: 90%;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
