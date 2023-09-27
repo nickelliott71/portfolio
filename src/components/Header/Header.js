@@ -27,18 +27,18 @@ const Header = () => (
     </Div2>
     <Div3>
       <li>
-        <Link href="#howicanhelp" legacyBehavior aria-current="page">
-          <a href="#howicanhelp">How I can help</a>
+        <Link href="#howicanhelp" aria-current="page">
+          <NavLink>How I can help</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about" legacyBehavior aria-current="page">
+        <Link href="#about" aria-current="page">
           <NavLink href="#about">About</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#contact" legacyBehavior aria-current="page">
-          <NavLink>Contact</NavLink>
+        <Link href="#contact" aria-current="page">
+          <NavLink href="#contact">Contact</NavLink>
         </Link>
       </li>      
       <li>
