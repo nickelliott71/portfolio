@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { Field, FieldLabel, FieldInput, FieldTextArea, SubmitButton } from './ContactStyles.js';
 
 const Contact = () => {
