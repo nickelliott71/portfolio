@@ -33,12 +33,12 @@ const Header = () => (
       </li>
       <li>
         <Link href="#about" aria-current="page">
-          <NavText href="#about">About</NavText>
+          <NavText>About</NavText>
         </Link>
       </li>
       <li>
         <Link href="#contact" aria-current="page">
-          <NavText href="#contact">Contact</NavText>
+          <NavText>Contact</NavText>
         </Link>
       </li>      
       <li>
