@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Field, FieldLabel, FieldInput, FieldTextArea, SubmitButton } from './ContactStyles.js';
@@ -49,6 +50,9 @@ const Contact = () => {
   return (
     <Section id="contact">
       <SectionTitle>Contact</SectionTitle>
+      <SectionText>
+        If you think I can help, please fill in the following form and I'll get back to you.  Alternatively, send me a message on <Link href="https://www.linkedin.com/in/nickelliott/">LinkedIn</Link>.
+      </SectionText>
       <form onSubmit={handleSubmit}>
         <Field>
           <FieldLabel htmlFor="name">Your name</FieldLabel>
