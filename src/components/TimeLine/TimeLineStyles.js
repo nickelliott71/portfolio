@@ -43,11 +43,11 @@ export const CarouselItem = styled.div`
   border-radius: 3px;
   max-width: 196px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     max-width: 124px;
   }
   
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.md} {
     margin-left: 32px;
     min-width: 120px;
     background: #0F1624;
@@ -72,13 +72,13 @@ export const CarouselItemTitle = styled.h3`
   color: #ffffff;
   margin-bottom: 8px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 4px;
   }
   
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.md} {
     font-size: 20px;
     line-height: 28px;
   }
@@ -88,7 +88,7 @@ export const CarouselItemImg = styled.svg`
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
   width: 100%;
 
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.md} {
     -webkit-mask-image: none;
     margin-left: 16px;
     overflow: visible;
@@ -102,12 +102,12 @@ export const CarouselItemText = styled.p`
   color: rgba(255, 255, 255, 0.75);
   padding-right: 16px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     font-size: 12px;
     line-height: 18px;
     padding-right: 32px;
   }
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.md} {
     font-size: 11px;
     line-height: 18px;
     padding-right: 0;
@@ -119,7 +119,7 @@ export const CarouselButtons = styled.div`
   display: none;
   visibility: hidden;
 
-  @media ${props => props.theme.breakpoints.sm} {
+  @media ${props => props.theme.breakpoints.md} {
     display: flex;
     visibility: visible;
     margin-bottom: 48px;
