@@ -11,7 +11,7 @@ const Footer = () => {
     <FooterWrapper>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Website based on a template design by <Link href="https://www.vipuljha.com">  Vipul Jha</Link></Slogan>
+          <Slogan>Website based on a template design by <SloganLink href="https://www.vipuljha.com">  Vipul Jha</SloganLink></Slogan>
         </CompanyContainer>
       </SocialIconsContainer>
 

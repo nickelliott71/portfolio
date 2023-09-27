@@ -97,6 +97,22 @@ export const Slogan = styled.p`
 		min-width: 100px;
 	}
 `
+export const SloganLink = styled.a`
+	color: rgba(236, 139, 83, 1);
+	text-decoration: underline;
+
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+	}	
+
+`
+
 
 export const SocialContainer = styled.div`
 	display: flex;
