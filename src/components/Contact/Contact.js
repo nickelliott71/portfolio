@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
 
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { Field, FieldLabel, FieldInput, FieldTextArea, SubmitButton } from './ContactStyles.js';
-import { SectionLink } from './FooterStyles';
+import { SectionLink } from '../Footer/FooterStyles';
 
 
 const Contact = () => {
