@@ -26,7 +26,7 @@ export const SectionImage = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: none;
   }
-  @media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     margin-top: 11em;
     display: none;
   }
