@@ -22,7 +22,7 @@ export const CarouselContainer = styled.ul`
      display: none;
    }
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x mandatory;
@@ -32,7 +32,7 @@ export const CarouselContainer = styled.ul`
   }
 `
 export const CarouselMobileScrollNode = styled.li`
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     display: flex;
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
   }
@@ -43,7 +43,7 @@ export const CarouselItem = styled.div`
   border-radius: 3px;
   max-width: 196px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     max-width: 124px;
   }
   
@@ -72,7 +72,7 @@ export const CarouselItemTitle = styled.h3`
   color: #ffffff;
   margin-bottom: 8px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 4px;
@@ -102,7 +102,7 @@ export const CarouselItemText = styled.p`
   color: rgba(255, 255, 255, 0.75);
   padding-right: 16px;
 
-  @media ${props => props.theme.breakpoints.md} {
+  @media ${props => props.theme.breakpoints.lg} {
     font-size: 12px;
     line-height: 18px;
     padding-right: 32px;
