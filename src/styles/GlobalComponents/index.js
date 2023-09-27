@@ -12,22 +12,6 @@ export const Section = styled.section`
   grid-column-gap: 5em;
 
   @media ${(props) => props.theme.breakpoints.lg} {
-    padding: ${(props) => props.nopadding ? "0" : "24px 48px 0"} 
-    flex-direction: column;
-    grid-template-columns: 100% 0;
-    grid-column-gap: 0;
-    width: 100%;
-  }  
-
-  @media ${(props) => props.theme.breakpoints.md} {
-    padding: ${(props) => props.nopadding ? "0" : "24px 48px 0"} 
-    flex-direction: column;
-    grid-template-columns: 100% 0;
-    grid-column-gap: 0;
-    width: 100%;
-  }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
 
     width: calc(100vw - 32px);
