@@ -28,9 +28,10 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
-  button, a {
-      outline: 2px solid rgb(154, 14, 154);
+  button:active, a:active {
+      outline: 2px solid rgb(222, 34, 222);
       outline-offset: 2px;
+      border-radius: 4px;
   }
   li{
     list-style: none;
