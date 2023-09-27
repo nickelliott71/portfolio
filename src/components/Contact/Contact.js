@@ -12,6 +12,7 @@ const Contact = () => {
     phoneNumber: '',
     message: '',
   });
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,7 +24,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("here a");
 
     try {
       const response = await fetch('/api/contact', {
@@ -39,12 +39,15 @@ const Contact = () => {
       if (response.ok) {
         // Handle success, e.g., show a success message to the user
         console.log('Email sent successfully in component');
+        setIsSubmitted(true);
       } else {
         // Handle errors, e.g., show an error message to the user
         console.error('Error sending email in component');
+        setIsSubmitted(false);
       }
     } catch (error) {
       console.error(error);
+      setIsSubmitted(false);
     }
   };
 
@@ -54,6 +57,14 @@ const Contact = () => {
       <SectionText>
         If you think I can help, please fill in the following form and I'll get back to you.  Alternatively, send me a message on <SectionLink href="https://www.linkedin.com/in/nickelliott/">LinkedIn</SectionLink>. Thanks!
       </SectionText>
+
+      {isSubmitted ? (
+        // Display the thank-you message when the form is submitted
+        <div>
+          <h2>Thank you for your submission!</h2>
+          <p>We will get back to you soon.</p>
+        </div>
+      ) : (
       <form onSubmit={handleSubmit}>
         <Field>
           <FieldLabel htmlFor="name">Your name</FieldLabel>
@@ -101,6 +112,7 @@ const Contact = () => {
         </Field>
         <SubmitButton type="submit">Send</SubmitButton>
       </form>
+      )}
     </Section>
   );
 };
