@@ -68,10 +68,8 @@ export const CarouselItemTitle = styled.h4`
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  display: flex;
-  color: #FFFFFF;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  display: flex;  
+  color: #ffffff;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
