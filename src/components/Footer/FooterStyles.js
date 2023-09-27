@@ -22,10 +22,12 @@ export const LinkItem = styled.a`
 	transition: .3s ease;
 	position: relative;
 	left: 0;
+	text-decoration: underline;
 
 	&:hover {
 		color: #fff;
 		left: 6px;
+		text-decoration: none;
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
