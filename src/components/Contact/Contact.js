@@ -61,8 +61,8 @@ const Contact = () => {
       {isSubmitted ? (
         // Display the thank-you message when the form is submitted
         <div>
-          <h2>Thank you for your submission!</h2>
-          <p>We will get back to you soon.</p>
+          <h2>Thank you for your interest!</h2>
+          <p>I'll get back to you very soon.</p>
         </div>
       ) : (
       <form onSubmit={handleSubmit}>
