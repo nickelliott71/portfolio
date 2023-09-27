@@ -48,7 +48,7 @@ export const Div2 = styled.div`
     justify-content: center;
   }
 `;
-export const Div3 = styled.div`
+export const Div3 = styled.ul`
   grid-area: 1 / 2 / 3 / 4;
   display: flex;
   justify-content: flex-end;
