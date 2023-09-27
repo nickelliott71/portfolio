@@ -248,11 +248,13 @@ export const LinkContainer = styled.div`
   justify-content: center;
   border-radius: 50px;
   padding: 8px;
+  text-decoration: underline;
 
   &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
+    text-decoration: none;
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -279,15 +281,4 @@ export const LinkIconImg = styled.div`
 
 export const Link = styled.a`
   color: ${(props) => props.theme.colors.link}
-  text-decoration: underline;
-
-  &:hover {
-    text-decoration: none;
-    color: #ffffff;
-	}
-
-  &:active {
-    text-decoration: none;
-    color: #ffffff;
-	}  
 `;
