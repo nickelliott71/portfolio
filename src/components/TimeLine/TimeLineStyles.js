@@ -44,7 +44,7 @@ export const CarouselItem = styled.div`
   max-width: 196px;
 
   @media ${props => props.theme.breakpoints.lg} {
-    max-width: 124px;
+    max-width: 200px;
     margin-left: 32px;
     min-width: 200px;
     background: #0F1624;
@@ -97,7 +97,7 @@ export const CarouselItemText = styled.p`
   }
 `
 export const CarouselButtons = styled.div`
-  width: 288px;
+  width: 200px;
 
   display: none;
   visibility: hidden;
