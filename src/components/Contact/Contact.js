@@ -52,7 +52,7 @@ const Contact = () => {
     <Section id="contact">
       <SectionTitle>Contact</SectionTitle>
       <SectionText>
-        If you think I can help, please fill in the following form and I'll get back to you.  Alternatively, send me a message on <SectionLink href="https://www.linkedin.com/in/nickelliott/">LinkedIn</SectionLink>.
+        If you think I can help, please fill in the following form and I'll get back to you.  Alternatively, send me a message on <SectionLink href="https://www.linkedin.com/in/nickelliott/">LinkedIn</SectionLink>. Thanks!
       </SectionText>
       <form onSubmit={handleSubmit}>
         <Field>
