@@ -279,4 +279,15 @@ export const LinkIconImg = styled.div`
 
 export const Link = styled.a`
   color: ${(props) => props.theme.colors.link}
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+    color: #ffffff;
+	}
+
+  &:active {
+    text-decoration: none;
+    color: #ffffff;
+	}  
 `;
