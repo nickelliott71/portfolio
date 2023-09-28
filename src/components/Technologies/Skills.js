@@ -40,7 +40,7 @@ export const Skills = [
     slug: "ds",
     Component: LuToyBrick,
     title: "Design systems",
-    Description: () => <><p>Consult on how to make the most out of your design system and help create consistency and efficiency throughout the design and development process.</p></>,
+    Description: () => <><p>Consult on how to get the most out of your design system and help create consistency and efficiency throughout the design and development process.</p></>,
   },
   {
     slug: "accessibility",

@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About</SectionTitle>
       <SectionText>
-        I'm a firm beliver that you are always learning.  Every experience layers onto the last.  Here's a few highlights of my experiences so far. 
+        I'm a firm beliver that you're always learning.  Every experience layers onto the last.  Here's a few highlights of my experiences so far. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
