@@ -10,7 +10,7 @@ const ContactTemp = () => {
     <Section id="contact">
       <SectionTitle>Contact</SectionTitle>
       <SectionText>
-        As I'm setting up, if you think I can help your business, please send me a message on <SectionLink href="https://www.linkedin.com/in/nickelliott/">LinkedIn</SectionLink>. Thanks!
+        If you think I can help your business, please send me a message on <SectionLink href="https://www.linkedin.com/in/nickelliott/">LinkedIn</SectionLink> and we'll set up a no obligation chat.  Thanks!
       </SectionText>
     </Section>
   );

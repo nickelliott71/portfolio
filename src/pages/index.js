@@ -1,22 +1,25 @@
+import ContactTemp from '../components/Contact/ContactTemp';
+import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
+import Hero from '../components/Hero/Hero';
+import HeroImage from '../components/Hero/HeroImage';
+import Projects from '../components/Projects/Projects';
+import Technologies from '../components/Technologies/Technologies';
+import Timeline from '../components/TimeLine/TimeLine';
+import { Layout } from '../layout/Layout';
+import { Section } from '../styles/GlobalComponents';
 
-import Image from 'next/image';
-import { Container } from '../layout/LayoutStyles'
-
-
-const Home = () => {
+const Index = () => {
   return (
-    <div style={{textAlign: 'center', marginTop: '2em', fontSize: '2em'}}>
-    <Container>
-      <Image
-        src="/images/website-logo.png"
-        width={200}
-        height={200}
-        alt=""
-      />
-      <p>Coming soon...</p>
-    </Container>
-    </div>
+    <Layout>
+      <Section grid>
+        <Hero />
+        <HeroImage/>
+      </Section>
+      <Technologies />
+      <Timeline />
+      <ContactTemp />
+    </Layout>
   );
 };
 
-export default Home;
+export default Index;
