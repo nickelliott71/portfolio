@@ -17,4 +17,4 @@ const ContactTemp = () => {
 };
 
 
-export default Contact;
+export default ContactTemp;
