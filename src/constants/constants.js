@@ -57,13 +57,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2001, text: 'Started my journey as a developer at a publishing company.', },
-  { year: 2003, text: 'Managed the ecommerce operation there.', },
-  { year: 2005, text: 'Switched to developing websites for financial services.', },
-  { year: 2011, text: 'Led my 1st frontend development team.', },
-  { year: 2012, text: 'Switched my focus to user experience, creating and leading a newly formed team.', },
+  { year: 2001, text: 'Started my journey as a developer at a publishing company going on to manage the ecommerce operation and building my 1st design system.', },
+  { year: 2005, text: 'Moved to financial services before going on to lead my 1st frontend development team.', },
+  { year: 2012, text: 'Switched my focus to user experience, creating and leading a newly formed UX team.', },
   { year: 2015, text: 'Moved to Sydney, Australia and helped set up the design function there.', },
-  { year: 2018, text: 'Returned to UK and managed a global design team.', },
-  { year: 2021, text: 'Focused on design systems as a Product Manager.', },
-  { year: 2023, text: 'Set up on my own...', },
+  { year: 2018, text: 'Returned to UK, managed a global design team and became the Design System product manager.', },
+  { year: 2023, text: 'Set up on my own and have since helped clients across finance, publishing & engineering with both design systems and UX projects.', },
 ];

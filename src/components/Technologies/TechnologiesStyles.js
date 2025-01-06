@@ -95,6 +95,15 @@ export const ListParagraph = styled.div`
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
 
+    a {
+    color: ${(props) => props.theme.colors.link};
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
     line-height: 28px;

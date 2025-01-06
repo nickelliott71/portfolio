@@ -12,7 +12,7 @@ const Hero = (props) => (
           Hi, I'm Nick Elliott,
         </SectionTitle>
         <SectionText>
-              I'm an experienced UX consultant and practitioner based in Cheltenham, UK.  I'm available to work on small design or research projects.  I'm also available to help on a consultancy basis, using my experience as a UX design manager and design system product owner.
+            I’m a Design System and UX consultant/practitioner based in Cheltenham, UK.  I'm passionate about crafting user-centered digital experiences. With over 20 years of experience, I specialise in Design System product management, UI design, and user research. 
         </SectionText>
       </LeftSection>
     </Section>
